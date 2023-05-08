@@ -27,12 +27,12 @@
 # 6
 # -> 5
 
-my_list = int(input("введите сколько элементов в списке: "))
-arr = [i for i in range (my_list)]
-print(arr)
-n = 0
-x = int(input("введите число которое нужно найти: "))
-for i in range(len(arr)):
-    if x-arr[i] < x-n and x-arr[i]>0:
-        n+=1
-print(n)
+# my_list = int(input("введите сколько элементов в списке: "))
+# arr = [i for i in range (my_list)]
+# print(arr)
+# n = 0
+# x = int(input("введите число которое нужно найти: "))
+# for i in range(len(arr)):
+#     if x-arr[i] < x-n and x-arr[i]>0:
+#         n+=1
+# print(n)
